@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 18px;
+    text-decoration: underline;
+}
+
+
+
+h1 {
+    font-size: 42px;
+}
+
+main {
+    display: grid;
+    gap: 1ch;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.episodeList ul {
+    display: grid;
+    gap: 1ch;
+
+    list-style-type: none;
+    padding: 0.25rem 5rem;
+
+}
+
+.episodeList li {
+    padding: .25rem;
+    font-size: 24px;
+}
+
+.episodeList li:hover {
+    cursor: pointer;
+    font-style: italic;
+    padding: .5rem;
+
+}
+
+
+.details {
+    grid-column: 2/3;
+
+}
+
+header {
+    text-align: center;
+}
